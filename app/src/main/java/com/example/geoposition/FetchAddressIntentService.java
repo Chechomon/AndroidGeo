@@ -111,5 +111,6 @@ public class FetchAddressIntentService
         bundle.putString( RESULT_DATA_KEY, message );
         resultReceiver.send( resultCode, bundle );
     }
-
+	
+	
 }
